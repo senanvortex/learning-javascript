@@ -1,0 +1,74 @@
+Control Flow pengulangan (Loop / Iteration)
+
+for
+while
+do while
+
+
+Control Flow pengkondisian
+
+if
+if else
+if.. else if.. else
+switch
+
+
+While pada Javascript
+
+while(kondisi){
+    aksi
+}
+
+//contoh, tapi ini masih infinity loop
+
+while(true){
+    console.log('ini adalah pengkondisian dengan while')
+}
+
+// ada 2 cara untuk menghentikan infinity loop
+
+pertama dari client : ulang = confirm('coba lagi?)
+
+kedua dari program :
+
+nilai awal
+while(kondisi terminasi) {
+    aksi
+    increment || decrement     // IN penambahan, De pengurangan terhadap nilai awal
+}
+
+contoh :
+
+let nilaiAwal = 1;
+
+while(nilaiAwal <= 5){
+    console.log('hello world');
+    nilaiAwal++;  // nilai awal ditambah 1 terhadap pengulangan
+}
+
+// Kondisi terminasi
+i <= 10;
+
+
+//If pada Javascript
+
+if(kondisi){
+    aksi
+}
+else if(){
+    aksi
+}
+else {
+    aksi
+};
+
+//contoh
+
+let angka = 3;
+
+if (angka % 2 == 0) {
+    console.log(angka + ' adalah angka GENAP');
+}
+else (angka % 2 == 1) {
+    console.log(angka + ' adalah bilangan GANJIL');
+};
